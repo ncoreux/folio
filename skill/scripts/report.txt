@@ -1,0 +1,187 @@
+PORTFOLIO IMAGE ANALYSIS - ORIGINAL WIX EXPORT
+==============================================
+
+PORTFOLIO SECTIONS FOUND IN ORIGINAL HTML:
+- HackensackUMC
+- IC1101-Datalake  
+- readabl
+- StaySMARTCARE
+- DataEZ
+- Automaton
+- HAL
+- PredictiveRx
+- Marvin
+- Movimento
+
+FILES IN CURRENT LOCAL DIRECTORY (images/portfolio/):
+
+CURRENT STRUCTURE:
+  images/portfolio/automaton/automaton-detail-01.png
+  images/portfolio/automaton/automaton-detail-02.png
+  images/portfolio/automaton/automaton-overview.png
+  images/portfolio/dataez/dataez-detail-01.png
+  images/portfolio/dataez/dataez-detail-02.png
+  images/portfolio/dataez/dataez-overview.png
+  images/portfolio/datalake/datalake-detail-01.png
+  images/portfolio/datalake/datalake-detail-02.png
+  images/portfolio/datalake/datalake-overview.png
+  images/portfolio/hackensack/ia-wireframe.png
+  images/portfolio/hackensack/iphone-wireframe-01.png
+  images/portfolio/hackensack/iphone-wireframe-02.png
+  images/portfolio/hackensack/iphone-wireframe-03.png
+  images/portfolio/hackensack/iphone-wireframe-04.png
+  images/portfolio/hackensack/iphone-wireframe-05.png
+  images/portfolio/hackensack/iphone-wireframe-06.png
+  images/portfolio/hackensack/iphone-wireframe-07.png
+  images/portfolio/hackensack/iphone-wireframe-08.png
+  images/portfolio/hackensack/visual-design-01.png
+  images/portfolio/hackensack/visual-design-02.png
+  images/portfolio/hackensack/visual-design-03.png
+  images/portfolio/hackensack/visual-design-04.png
+  images/portfolio/hackensack/visual-design-05.png
+  images/portfolio/hackensack/visual-design-06.png
+  images/portfolio/hal/hal-screen-01.png
+  images/portfolio/hal/hal-screen-02.png
+  images/portfolio/hal/hal-screen-03.png
+  images/portfolio/hal/hal-screen-04.png
+  images/portfolio/hero/design-thinking-approach.png
+  images/portfolio/marvin/marvin-ipad.png
+  images/portfolio/marvin/marvin-iphone-01.png
+  images/portfolio/marvin/marvin-iphone-02.png
+  images/portfolio/marvin/marvin-iphone-03.png
+  images/portfolio/predictiverx/predictiverx-iphone-01.png
+  images/portfolio/predictiverx/predictiverx-iphone-02.png
+  images/portfolio/predictiverx/predictiverx-iphone-03.png
+  images/portfolio/predictiverx/predictiverx-iphone-04.png
+  images/portfolio/predictiverx/predictiverx-iphone-05.png
+  images/portfolio/predictiverx/predictiverx-iphone-06.png
+  images/portfolio/predictiverx/predictiverx-iphone-07.png
+  images/portfolio/predictiverx/predictiverx-web-01.png
+  images/portfolio/predictiverx/predictiverx-web-02.png
+  images/portfolio/predictiverx/predictiverx-web-03.png
+  images/portfolio/predictiverx/predictiverx-web-04.png
+  images/portfolio/readabl/readabl-doc-integration.png
+  images/portfolio/readabl/readabl-doc-management.png
+  images/portfolio/readabl/readabl-overview.png
+  images/portfolio/readabl/readabl-reports.png
+  images/portfolio/staysmartcare/staysmartcare-dashboard.png
+  images/portfolio/staysmartcare/staysmartcare-mobile-01.png
+  images/portfolio/staysmartcare/staysmartcare-mobile-02.png
+
+CURRENT FILE SIZES:
+  6.0K images/portfolio/automaton/automaton-detail-01.png
+  4.4K images/portfolio/automaton/automaton-detail-02.png
+  4.5K images/portfolio/automaton/automaton-overview.png
+  7.1K images/portfolio/dataez/dataez-detail-01.png
+  6.8K images/portfolio/dataez/dataez-detail-02.png
+  4.5K images/portfolio/dataez/dataez-overview.png
+  5.2K images/portfolio/datalake/datalake-detail-01.png
+  6.1K images/portfolio/datalake/datalake-detail-02.png
+  5.1K images/portfolio/datalake/datalake-overview.png
+  80K images/portfolio/hackensack/ia-wireframe.png
+  76K images/portfolio/hackensack/iphone-wireframe-01.png
+  36K images/portfolio/hackensack/iphone-wireframe-02.png
+  32K images/portfolio/hackensack/iphone-wireframe-03.png
+  49K images/portfolio/hackensack/iphone-wireframe-04.png
+  25K images/portfolio/hackensack/iphone-wireframe-05.png
+  60K images/portfolio/hackensack/iphone-wireframe-06.png
+  35K images/portfolio/hackensack/iphone-wireframe-07.png
+  43K images/portfolio/hackensack/iphone-wireframe-08.png
+  11K images/portfolio/hackensack/visual-design-01.png
+  8.2K images/portfolio/hackensack/visual-design-02.png
+  12K images/portfolio/hackensack/visual-design-03.png
+  9.3K images/portfolio/hackensack/visual-design-04.png
+  9.9K images/portfolio/hackensack/visual-design-05.png
+  14K images/portfolio/hackensack/visual-design-06.png
+  8.2K images/portfolio/hal/hal-screen-01.png
+  6.8K images/portfolio/hal/hal-screen-02.png
+  11K images/portfolio/hal/hal-screen-03.png
+  11K images/portfolio/hal/hal-screen-04.png
+  148K images/portfolio/hero/design-thinking-approach.png
+  11K images/portfolio/marvin/marvin-ipad.png
+  14K images/portfolio/marvin/marvin-iphone-01.png
+  8.7K images/portfolio/marvin/marvin-iphone-02.png
+  14K images/portfolio/marvin/marvin-iphone-03.png
+  6.9K images/portfolio/predictiverx/predictiverx-iphone-01.png
+  7.0K images/portfolio/predictiverx/predictiverx-iphone-02.png
+  5.9K images/portfolio/predictiverx/predictiverx-iphone-03.png
+  6.1K images/portfolio/predictiverx/predictiverx-iphone-04.png
+  6.1K images/portfolio/predictiverx/predictiverx-iphone-05.png
+  6.4K images/portfolio/predictiverx/predictiverx-iphone-06.png
+  6.1K images/portfolio/predictiverx/predictiverx-iphone-07.png
+  12K images/portfolio/predictiverx/predictiverx-web-01.png
+  8.9K images/portfolio/predictiverx/predictiverx-web-02.png
+  8.4K images/portfolio/predictiverx/predictiverx-web-03.png
+  9.4K images/portfolio/predictiverx/predictiverx-web-04.png
+  8.6K images/portfolio/readabl/readabl-doc-integration.png
+  8.1K images/portfolio/readabl/readabl-doc-management.png
+  4.6K images/portfolio/readabl/readabl-overview.png
+  8.7K images/portfolio/readabl/readabl-reports.png
+  4.1K images/portfolio/staysmartcare/staysmartcare-dashboard.png
+  11K images/portfolio/staysmartcare/staysmartcare-mobile-01.png
+  14K images/portfolio/staysmartcare/staysmartcare-mobile-02.png
+
+
+IMAGES EXTRACTED FROM portfolio_ncoreUX_files/
+=============================================
+  49K  5a1d6f_0010977b84bd443aafadf6a66ac86360~mv2_d_1500_2668_s_2.png
+  15K  5a1d6f_05f4a9aa59e440089d0c2cca86ddf234~mv2.png
+  11K  5a1d6f_10c91e4bf1fc4de282e48976a0633934~mv2.png
+  6.1K  5a1d6f_17841354ab88419c8fafcaf34055cc9b~mv2.png
+  3.9K  5a1d6f_210fe3e6bc82475fa56a8e4d1b8ec968~mv2.png
+  76K  5a1d6f_23896175704f47f18d29e3a0cc33a596~mv2_d_1500_2668_s_2.png
+  9.9K  5a1d6f_28e4d7c8268d4aad8a1f6542f66e3867~mv2_d_1500_1396_s_2.png
+  80K  5a1d6f_2f0f232dc4834a7ca21f582edc0af0bd~mv2.png
+  11K  5a1d6f_318c0821d1ce477d874100614cfd696d~mv2.png
+  148K  5a1d6f_3e6a19c57e7544809b8df721c8ec714e~mv2.png
+  12K  5a1d6f_42073881d9994b299fd1c3bcd29e23cc~mv2.png
+  12K  5a1d6f_439eff1e2ec04ddfa98027aa2d367ab8~mv2.png
+  8.9K  5a1d6f_4813aa4691e943e494c54bbefe4b6d4f~mv2.png
+  9.3K  5a1d6f_4993994acc0c4d30ad01dca59f35ff20~mv2.png
+  5.2K  5a1d6f_4aeb29dc11c64ca1aec7b351f29f7a45~mv2.png
+  11K  5a1d6f_4b25a172d39d435c908410e226601919~mv2.png
+  11K  5a1d6f_4e5f9b58510a43fc963341a72f406fc1~mv2.png
+  4.5K  5a1d6f_5485fcc33a0f4d38a017f1866bfd2af6~mv2_d_5333_3750_s_4_2.png
+  1.9K  5a1d6f_5756fc9a7bae4ecf883fcacb7f04b857~mv2.jpg
+  6.1K  5a1d6f_60cf7aabd59e4e45a7326de37eec57d8~mv2.png
+  6.8K  5a1d6f_6434811c349e4f808ba0c9b558c6eede~mv2.png
+  7.1K  5a1d6f_66441a4ccb2348f58bc65ebf5a72f85b~mv2.png
+  11K  5a1d6f_6973965992de416e851a5369d9369fe0~mv2_d_1500_1396_s_2.png
+  8.4K  5a1d6f_6e826e0c757c4f5d92cc228b41db12a0~mv2.png
+  4.5K  5a1d6f_71f1384b6a4e48f78ee9e30a74098c6f~mv2.png
+  19K  5a1d6f_7375ed4558884a47bc4d8c105c9626ff~mv2.png
+  4.1K  5a1d6f_7cf8532b62e24a34af8e2609cbf3cb47~mv2.png
+  14K  5a1d6f_8c9237e06575486484c3db42144c9a97~mv2.png
+  14K  5a1d6f_8fa2683bf78945ab941921ba5c41882a~mv2.png
+  12K  5a1d6f_8fb3936c5f434b5aae6a2e0cb96debc8~mv2.png
+  13K  5a1d6f_903a301eb5b84e26aaae0af5822b3e35~mv2.png
+  7.0K  5a1d6f_928a0e4e43d347afb8be966211369119~mv2.png
+  60K  5a1d6f_9538f9629bfa4323aca5b9981ae935d0~mv2_d_1500_2668_s_2.png
+  11K  5a1d6f_96e74b500d514401b14975d2ae628dac~mv2.png
+  32K  5a1d6f_975ed4940e4a442baeabe240007f1a66~mv2_d_1500_2668_s_2.png
+  12K  5a1d6f_9833f83621e54940a0c28ab4c448a8ad~mv2.png
+  35K  5a1d6f_a6e593cf76514fceb56e62993178c5d0~mv2_d_1500_2668_s_2.png
+  9.9K  5a1d6f_acde4aa39da549df820028c37738b686~mv2.png
+  6.1K  5a1d6f_b3736684ec6c415388d90aa89679d476~mv2.png
+  8.2K  5a1d6f_bb0b18f23c294996a15252fbeda314ef~mv2.png
+  12K  5a1d6f_bb95c14a9c084c55b4d05770dc674c6e~mv2.png
+  6.9K  5a1d6f_be20bbaa61424f54ae46277709eeb8ae~mv2.png
+  6.0K  5a1d6f_bf158c0b76fd4a4facf9959f8d850e00~mv2.png
+  22K  5a1d6f_c35f17c74de54149bc78cde5e9fc3272~mv2.png
+  8.2K  5a1d6f_c4f8a0b5135942b7906225b89b345dc8~mv2.png
+  6.4K  5a1d6f_c93393488d244ff280a34c9d4db643aa~mv2.png
+  6.8K  5a1d6f_ce9462e51b8743a0a2643567fef541dc~mv2.png
+  4.4K  5a1d6f_d0552101ee9a424ca7c26586f9cd3188~mv2_d_2667_1458_s_2.png
+  5.9K  5a1d6f_d4fe0793f23f4e87bae092aae8ea9890~mv2.png
+  43K  5a1d6f_d9d54cc13a36416d8c27849eb48ddbb6~mv2_d_1500_2668_s_2.png
+  9.4K  5a1d6f_da8943b0b3a94081ad73582a3965bb70~mv2.png
+  5.7K  5a1d6f_da9cdc8caac84f06a7d7b9d927e5c7eb.png
+  6.1K  5a1d6f_de2a86ae9d8747a18e9714fc1af2568f~mv2.png
+  5.1K  5a1d6f_e540da2766104381a147cf232185ced2~mv2.png
+  2.1K  5a1d6f_e7067386e23e4d7cac8244fe34e2d9b7~mv2.jpg
+  2.7K  5a1d6f_f0677a090faa46f69ce9ba90466aa06c~mv2.png
+  12K  5a1d6f_f093ee38f28741b781ee3ef02f6b7b79~mv2.png
+  36K  5a1d6f_f43c3f46089e4463a3ab431869dc3ab8~mv2_d_1500_2668_s_2.png
+  9.1K  5a1d6f_f5411ff47ac849bd8230d96eea242710~mv2.png
+  11K  5a1d6f_f88e9566c89d4c41a96ba4378693aeba~mv2.png
+  25K  5a1d6f_ff0d6f56605a4e1783bbe52e01403301~mv2_d_1500_2668_s_2.png

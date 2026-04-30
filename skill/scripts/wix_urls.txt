@@ -1,0 +1,17 @@
+COMPLETE WIX CDN IMAGE URLS FROM portfolio_ncoreUX.html
+======================================================
+
+FAVICON/BRANDING:
+https://static.wixstatic.com/media/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png
+https://static.wixstatic.com/media/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png
+https://static.wixstatic.com/media/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png
+
+PORTFOLIO IMAGES (Sample URLs):
+https://static.wixstatic.com/media/5a1d6f_2f0f232dc4834a7ca21f582edc0af0bd~mv2.png/v1/crop/x_0,y_96,w_1920,h_984/fill/w_705,h_363,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5a1d6f_2f0f232dc4834a7ca21f582edc0af0bd~mv2.png 1x, https://static.wixstatic.com/media/5a1d6f_2f0f232dc4834a7ca21f582edc0af0bd~mv2.png/v1/crop/x_0,y_96,w_1920,h_984/fill/w_1410,h_726,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/5a1d6f_2f0f232dc4834a7ca21f582edc0af0bd~mv2.png 2x
+https://static.wixstatic.com/media/5a1d6f_3e6a19c57e7544809b8df721c8ec714e~mv2.png/v1/fill/w_920,h_365,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5a1d6f_3e6a19c57e7544809b8df721c8ec714e~mv2.png 1x, https://static.wixstatic.com/media/5a1d6f_3e6a19c57e7544809b8df721c8ec714e~mv2.png/v1/fill/w_1799,h_714,al_c,q_90,enc_avif,quality_auto/5a1d6f_3e6a19c57e7544809b8df721c8ec714e~mv2.png 2x
+https://static.wixstatic.com/media/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png
+https://static.wixstatic.com/media/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png
+https://static.wixstatic.com/media/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/5a1d6f_e04f0edf317541e0ac13a4f7f3f215b7%7Emv2.png
+
+ADDITIONAL IMAGES:
+https://static.wixstatic.com/media/41d000_234c0c521a8017939900379e6a25b05c.png/v1/fill/w_32,h_18,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_234c0c521a8017939900379e6a25b05c.png 1x, https://static.wixstatic.com/media/41d000_234c0c521a8017939900379e6a25b05c.png/v1/fill/w_64,h_37,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_234c0c521a8017939900379e6a25b05c.png 2x
