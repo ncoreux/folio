@@ -70,16 +70,30 @@
 
     <main>
       <!-- Hero -->
-      <section class="section section--light page-hero">
+      <section class="section section--light page-hero page-hero--horizontal">
         <div class="container">
-          <h6 class="heading-4" style="font-size: 26px;">UX</h6>
-          <h1 class="page-hero__title">Portfolio</h1>
-          <p class="page-hero__subtitle">IA, IxD and VD</p>
-          <div class="page-hero__nav">
-            <a href="patterns.html" class="hero-circle hero-circle--patterns">Patterns</a>
-            <a href="method.html" class="hero-circle hero-circle--method">Method</a>
-            <a href="index.html" class="hero-circle hero-circle--portfolio">Home</a>
+          <div class="page-hero__left">
+            <div class="page-hero__icon-circle hero-circle--portfolio">UX</div>
+            <div>
+              <h1 class="page-hero__title">Portfolio</h1>
+              <p class="page-hero__subtitle">IA, IxD and VD</p>
+            </div>
           </div>
+          <div class="page-hero__nav">
+            <a href="method.html" class="hero-circle hero-circle--method">Method</a>
+            <a href="patterns.html" class="hero-circle hero-circle--patterns">Patterns</a>
+            <a href="index.html" class="hero-circle hero-circle--home">Home</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- UX Design Approach -->
+      <section class="section section--light">
+        <div class="container">
+          <div class="project__image-main">
+            <img src="images/portfolio/ux-design-approach.png" alt="Visualization of the User Experience Design approach" loading="lazy">
+          </div>
+          <p class="project__description" style="text-align: center; margin: 16px auto 0;">Visualization of the User Experience Design approach</p>
         </div>
       </section>
 
@@ -244,7 +258,7 @@
             <img src="images/portfolio/automaton/automaton-detail-01.png" alt="Automaton detail 1" loading="lazy">
             <img src="images/portfolio/automaton/automaton-detail-02.png" alt="Automaton detail 2" loading="lazy">
           </div>
-          <a href="https://readymag.com/u931656668/4326993/automaton" target="_blank" class="project__cta">View Case Study</a>
+          <!-- <a href="https://readymag.com/u931656668/4326993/automaton" target="_blank" class="project__cta">View Case Study</a> -->
         </div>
       </section>
 
@@ -326,6 +340,24 @@
         </div>
       </section>
 
+      <!-- 12. Fitoori -->
+      <section class="project project--dark">
+        <div class="container">
+          <h2 class="project__title">Fitoori</h2>
+          <h3 class="project__subtitle">Co-create Fashion Jewelry</h3>
+          <hr class="project__divider">
+          <div class="project__split">
+            <div class="project__split-text">
+              <p>A start up for jewelry design that allows users to co-create and make their own fashion statement</p>
+              <a href="fitoori-home.html" class="project__cta">View Demo Site (for desktop only)</a>
+            </div>
+            <div class="project__split-images">
+              <img src="images/fitoori/fitoori-hero.png" alt="Fitoori app homepage mockup" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <!-- Footer -->
@@ -362,5 +394,29 @@
     </footer>
 
   </div>
+
+  <!-- FAB -->
+  <div class="fab">
+    <div class="fab__menu">
+      <a href="portfolio.html" class="fab__item">
+        <span class="fab__label">UX Portfolio</span>
+        <span class="fab__icon" style="background-color: var(--red-primary);">UX</span>
+      </a>
+      <a href="method.html" class="fab__item">
+        <span class="fab__label">Method</span>
+        <span class="fab__icon" style="background-color: var(--teal-primary);">M</span>
+      </a>
+      <a href="patterns.html" class="fab__item">
+        <span class="fab__label">Patterns</span>
+        <span class="fab__icon" style="background-color: var(--yellow-primary);">P</span>
+      </a>
+      <a href="index.html" class="fab__item">
+        <span class="fab__label">Home</span>
+        <span class="fab__icon" style="background-color: var(--gray-300);">&#8962;</span>
+      </a>
+    </div>
+    <button class="fab__trigger" aria-label="Navigation menu">&#8943;</button>
+  </div>
+  <script src="js/fab.js"></script>
 </body>
 </html>

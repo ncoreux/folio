@@ -492,6 +492,48 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 24px;
 }
 
+.page-hero--horizontal {
+  text-align: left;
+}
+
+.page-hero--horizontal .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-hero__left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.page-hero__icon-circle {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: normal normal normal 22px/1 var(--font-sans);
+  color: var(--color-text-white);
+  flex-shrink: 0;
+}
+
+.page-hero--horizontal .page-hero__nav {
+  margin-top: 0;
+}
+
+.page-hero--horizontal .hero-circle {
+  width: 80px;
+  height: 80px;
+  font-size: 14px;
+}
+
+.hero-circle--home {
+  background-color: var(--gray-300);
+}
+
 /* --- Project Section (Portfolio, Method, Patterns) --- */
 .project {
   padding: 50px 0;
@@ -570,6 +612,16 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-text-white);
 }
 
+.project--dark .project__cta {
+  color: var(--color-text-white);
+  border-color: var(--color-text-white);
+}
+
+.project--dark .project__cta:hover {
+  background-color: var(--color-text-white);
+  color: var(--color-bg-dark);
+}
+
 /* Image Grids */
 .project__image-main {
   margin: 20px 0;
@@ -585,11 +637,13 @@ h1, h2, h3, h4, h5, h6 {
   gap: 16px;
   flex-wrap: wrap;
   margin: 20px 0;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .project__image-row img {
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .project__image-row--phones img {
@@ -599,11 +653,13 @@ h1, h2, h3, h4, h5, h6 {
 .project__image-row--screens img {
   flex: 1;
   min-width: 200px;
-  max-width: 48%;
+  max-width: 50%;
+  object-fit: contain;
 }
 
 .project__image-row--ipad img {
   max-width: 100%;
+  object-fit: contain;
 }
 
 /* Text + Images side by side layout */
@@ -646,7 +702,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .project__split-images img {
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .project__split-images--3col img {
@@ -725,6 +781,103 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 240px;
 }
 
+/* --- Floating Action Button --- */
+.fab {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .fab {
+    display: block;
+  }
+}
+
+.fab--visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fab__trigger {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--gray-300);
+  color: var(--color-text-white);
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.fab__trigger:hover {
+  background-color: var(--gray-400);
+}
+
+.fab--open .fab__trigger {
+  transform: rotate(45deg);
+}
+
+.fab__menu {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fab--open .fab__menu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.fab__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.fab__label {
+  background: var(--color-bg-white);
+  color: var(--color-text-secondary);
+  font: normal normal normal 13px/1 var(--font-sans);
+  padding: 6px 12px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
+}
+
+.fab__icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-white);
+  font: normal normal normal 14px/1 var(--font-sans);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+
 /* --- Responsive --- */
 @media (max-width: 768px) {
   .container {
@@ -769,6 +922,21 @@ h1, h2, h3, h4, h5, h6 {
 
   .page-hero__title {
     font-size: 32px;
+  }
+
+  .page-hero--horizontal .container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .page-hero__left {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .page-hero--horizontal .page-hero__nav {
+    justify-content: center;
   }
 
   .fitoori-footer-links {
