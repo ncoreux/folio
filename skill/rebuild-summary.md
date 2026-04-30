@@ -491,7 +491,47 @@ The key UX principle: **nothing is hidden on mobile** — every element is still
 
 ---
 
-## 14. Deployment Checklist
+## 14. Continuing on Another PC
+
+### What you need
+- Git, Node.js, VS Code + Claude Code extension
+
+### Steps
+
+```bash
+# 1. Clone and switch to the working branch
+git clone https://github.com/ncoreux/folio.git
+cd folio
+git checkout refr2
+
+# 2. Review in browser
+# Open index.html directly, or:
+npx serve .
+
+# 3. Make any changes, then push
+git add -A
+git commit -m "describe your changes"
+git push origin refr2
+
+# 4. When fully satisfied, merge to main (this makes it live)
+git checkout main
+git merge refr2
+git push origin main
+```
+
+### Picking up with Claude Code
+1. Open the project in VS Code
+2. Start Claude Code
+3. Say: "Read `skill/toc.md` — that has the full context for this rebuild"
+4. Claude reads the three skill docs and has full context to continue
+
+### What NOT to do
+- Don't push to `main` until you've reviewed everything — `main` is what GitHub Pages serves
+- Don't delete the `refr2` branch until after merge — it's your safety net
+
+---
+
+## 15. Deployment Checklist
 
 Steps to go live on GitHub Pages with a custom domain:
 
