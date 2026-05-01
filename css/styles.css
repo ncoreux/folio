@@ -726,13 +726,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Small phone grid (visual designs) */
-.visual-phones-container {
+.visual-phones-container,
+.wireframe-container {
   background-color: var(--color-bg-white);
   padding: 30px 20px;
   margin: 20px 0;
 }
 
-.visual-phones-container .project__image-row--visual-phones {
+.visual-phones-container .project__image-row--visual-phones,
+.wireframe-container .project__image-row--phones {
   justify-content: space-around;
 }
 
@@ -801,6 +803,11 @@ h1, h2, h3, h4, h5, h6 {
 .fitoori-cart__saved {
   flex: 1;
   min-width: 240px;
+}
+
+/* --- Figma Embeds --- */
+.figma-embed iframe {
+  max-width: 100%;
 }
 
 /* --- Floating Action Button --- */
