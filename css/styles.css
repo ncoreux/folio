@@ -546,6 +546,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--color-bg-primary);
 }
 
+.project--white {
+  background-color: var(--color-bg-white);
+}
+
 .project--dark {
   background-color: var(--color-bg-dark);
   color: var(--color-text-white);
@@ -649,6 +653,10 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: contain;
 }
 
+.project__image-row--phones {
+  justify-content: space-around;
+}
+
 .project__image-row--phones img {
   width: 226px;
 }
@@ -706,6 +714,7 @@ h1, h2, h3, h4, h5, h6 {
 .project__split-images img {
   height: auto;
   object-fit: contain;
+  border: 1px solid var(--gray-200);
 }
 
 .project__split-images--3col img {
@@ -717,6 +726,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Small phone grid (visual designs) */
+.visual-phones-container {
+  background-color: var(--color-bg-white);
+  padding: 30px 20px;
+  margin: 20px 0;
+}
+
+.visual-phones-container .project__image-row--visual-phones {
+  justify-content: space-around;
+}
+
 .project__image-row--visual-phones img {
   width: 226px;
 }
@@ -964,6 +983,45 @@ h1, h2, h3, h4, h5, h6 {
 
   .page-hero--horizontal .page-hero__nav {
     justify-content: center;
+  }
+
+  .project__split {
+    flex-direction: column;
+  }
+
+  .project__split-text {
+    flex: none;
+    max-width: 100%;
+  }
+
+  .project__split-images--3col img {
+    width: calc((100% - 32px) / 3);
+  }
+
+  .project__image-row--visual-phones {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project__image-row--visual-phones img {
+    width: 100%;
+  }
+
+  .project__split-images--4col img {
+    width: calc((100% - 16px) / 2);
+  }
+
+  .project__image-row--phones img {
+    width: 140px;
+  }
+
+  .project__image-row--screens {
+    flex-direction: column;
+  }
+
+  .project__image-row--screens img {
+    max-width: 100%;
+    min-width: 0;
   }
 
   .fitoori-footer-links {
