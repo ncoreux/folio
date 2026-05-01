@@ -9,12 +9,13 @@ A guide capturing how the ncoreUX portfolio site was rebuilt from Wix-exported s
 | Page | File | Purpose |
 |------|-------|---------|
 | Home | `index.html` | Name, intro, profile photo, navigation circles |
-| Portfolio | `portfolio.html` | 11 project sections with images, split layouts |
+| Portfolio | `portfolio.html` | 18 project sections with images, split layouts, Figma embeds |
 | Method | `method.html` | 8 UX process/method sections |
 | Patterns | `patterns.html` | 8 interaction design pattern sections |
+| Fitoori (3) | `fitoori-home.html`, `fitoori-cocreate.html`, `fitoori-customize.html` | Fitoori jewelry project pages |
 
 **Single stylesheet:** `css/styles.css` — design tokens, layout, typography, responsive.
-**No JavaScript.** All interactions are CSS-only (hover transitions, etc).
+**JavaScript:** `js/fab.js` — Floating Action Button for mobile navigation (scroll-triggered, auto-collapse).
 
 ---
 
@@ -205,10 +206,19 @@ The critical challenge: Wix HTML doesn't label which images belong to which sect
 
 **Image grids:**
 - `.project__image-main` — single full-width image
-- `.project__image-row--screens` — 2-up (flex, 48% each)
-- `.project__image-row--phones` — fixed 226px width per phone
-- `.project__split-images--3col` — 3-up in split layout
-- `.project__split-images--4col` — 4-up in split layout
+- `.project__image-row--screens` — 2-up (flex, 50% each); stacks to full-width on mobile
+- `.project__image-row--phones` — fixed 226px width per phone, space-around
+- `.project__split-images--3col` — 3-up in split layout (stays 3-col on mobile)
+- `.project__split-images--4col` — 4-up in split layout (2-col on mobile)
+- `.visual-phones-container` / `.wireframe-container` — white bg wrapper with space-around
+- `.figma-embed` — responsive iframe container for Figma prototypes
+
+**Page layouts:**
+- `.page-hero--horizontal` — icon-circle + title left, nav circles right (used on portfolio, method, patterns)
+- `.section--home` — extra padding (90px) for home page hero
+
+**Mobile components:**
+- FAB (Floating Action Button) — mobile-only nav with glass effect, scroll-triggered visibility at 70%, staggered item animations, 5s auto-collapse
 
 ---
 
@@ -317,9 +327,15 @@ refresh/
   portfolio.html
   method.html
   patterns.html
+  fitoori-home.html
+  fitoori-cocreate.html
+  fitoori-customize.html
+  figma_embed.md           (Figma iframe codes for case study prototypes)
   Subhan_resume__UxD.pdf
   css/
     styles.css
+  js/
+    fab.js                 (FAB: scroll-triggered mobile nav, glass effect)
   images/
     home/
       profile-photo.avif
@@ -332,10 +348,15 @@ refresh/
       dataez/              (screens)
       automaton/           (screens)
       hal/                 (screens)
-      predictiverx/        (iPhone + web screens)
+      predictiverx/        (wireframes + web screens)
       marvin/              (iPhone wireframes)
+      movimento/           (dashboard + snapshot screens)
+      shoutmd/             (community platform screens)
+      pwc/                 (Expense, Hoteling, Tax DMS — iPhone + iPad)
+      fitoori/             (hero image)
     method/                (13 images: process diagrams, journey maps, IA, personas)
     patterns/              (11 images: AIDA, datalake, scheduling, radial menu, etc)
+    misc/                  (source images from Wix Media Manager downloads)
     icons/
       favicon.png          (32x32)
       favicon-192.png      (192x192)
@@ -577,7 +598,7 @@ Steps to go live on GitHub Pages with a custom domain:
 
 Quick-reference of all 27 project sections across the 3 content pages. Useful for updating or adding projects later.
 
-### Portfolio (11 sections, 51 images)
+### Portfolio (18 sections, ~80 images + 3 Figma embeds)
 
 | # | Section | Client | Technology | Images | Theme |
 |---|---------|--------|-----------|--------|-------|
@@ -592,6 +613,13 @@ Quick-reference of all 27 project sections across the 3 content pages. Useful fo
 | 9 | Predictive Rx — iPhone | HealthcareTriangle | iOS, Photoshop, PowerPoint | 7 | light |
 | 10 | Predictive Rx — Web | HealthcareTriangle | — | 4 | dark |
 | 11 | Marvin — iPhone/iPad | HealthcareTriangle | iOS, Figma | 4 | light |
+| 12 | Movimento | Movimento | Sketch, PowerPoint, Photoshop | 3 | light |
+| 13 | Community Platform Tool | Shout MD | Sketch, PowerPoint, Photoshop, Liferay, CMS | 2 | dark |
+| 14 | Mobile Expense App (IA + iPhone + iPad) | PwC | iOS, Axure, Visio, PowerPoint, Photoshop | 5 | light |
+| 15 | Hoteling App (iPad + iPhone) | PwC | iOS, Axure, Visio, PowerPoint, Photoshop | 5 | dark |
+| 16 | Tax DMS App — iPad | PwC | iOS, Axure, Visio, PowerPoint, Photoshop | 1 | light |
+| 17 | Additional Case Studies | Deephealth/GE/Philips | Figma | 3 Figma embeds | dark |
+| 18 | Fitoori | — | — | 1 | dark |
 
 ### Method (8 sections, 13 images)
 
@@ -623,7 +651,7 @@ Quick-reference of all 27 project sections across the 3 content pages. Useful fo
 
 | Page | Sections | Images | Clients |
 |------|----------|--------|---------|
-| Portfolio | 11 | 51 | 2 (HackensackUMC, HealthcareTriangle) |
+| Portfolio | 18 | ~80 + 3 Figma embeds | 7 (HackensackUMC, HealthcareTriangle, Movimento, Shout MD, PwC, Deephealth/GE/Philips) |
 | Method | 8 | 13 | 5 (Bloom Energy, HealthcareTriangle, Microsoft, Shout MD, HackensackUMC) |
 | Patterns | 8 | 11 | 6 (HealthcareTriangle, BNSF, Wells Fargo, Horizons, PwC, Infosys) |
-| **Total** | **27** | **75** | **9 unique clients** |
+| **Total** | **34** | **~104 + 3 embeds** | **12 unique clients** |
