@@ -1,0 +1,42 @@
+{
+  "portfolio": {
+    "hackensack-ia": true,
+    "hackensack-app": true,
+    "datalake": true,
+    "readabl": true,
+    "staysmartcare": true,
+    "dataez": true,
+    "automaton": true,
+    "hal": true,
+    "marvin": true,
+    "predictiverx-iphone": true,
+    "predictiverx-web": true,
+    "movimento": true,
+    "shoutmd": true,
+    "pwc-expense": true,
+    "pwc-hoteling": true,
+    "pwc-taxdms": true,
+    "case-studies": true,
+    "fitoori": true
+  },
+  "method": {
+    "ux-process": true,
+    "journeymap-bloom": true,
+    "ia-marvin": true,
+    "taskflow-microsoft": true,
+    "strategy-shoutmd": true,
+    "persona-shoutmd": true,
+    "journeymap-hackensack": true,
+    "ia-hackensack": true
+  },
+  "patterns": {
+    "aida": true,
+    "datalake-pipeline": true,
+    "scheduling-bnsf": true,
+    "business-rules-wf": true,
+    "timeline-horizons": true,
+    "radial-menu-pwc": true,
+    "navigation-infosys": true,
+    "dashboard-infosys": true
+  }
+}

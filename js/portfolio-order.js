@@ -27,7 +27,9 @@ var SECTION_ORDER = [
   "fitoori"
 ];
 
-(function () {
+var KEEP_WHITE = {};
+
+function reorderAndThemeSections() {
   var main = document.querySelector("main");
   if (!main) return;
 
@@ -37,12 +39,28 @@ var SECTION_ORDER = [
   });
 
   var themes = ["project--dark", "project--light"];
+  var visibleIndex = 0;
 
-  SECTION_ORDER.forEach(function (name, i) {
+  SECTION_ORDER.forEach(function (name) {
     var el = sections[name];
     if (!el) return;
+
+    var isHidden = el.style.display === "none";
     el.classList.remove("project--dark", "project--light", "project--white");
-    el.classList.add(themes[i % 2]);
+
+    if (isHidden) {
+      main.appendChild(el);
+      return;
+    }
+
+    if (KEEP_WHITE[name]) {
+      el.classList.add("project--white");
+    } else {
+      el.classList.add(themes[visibleIndex % 2]);
+      visibleIndex++;
+    }
     main.appendChild(el);
   });
-})();
+}
+
+reorderAndThemeSections();
