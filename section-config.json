@@ -1,6 +1,6 @@
 {
   "patterns": {
-    "aida": false,
+    "aida": true,
     "datalake-pipeline": true,
     "scheduling-bnsf": true,
     "business-rules-wf": true,
