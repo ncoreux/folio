@@ -8,5 +8,25 @@
     "radial-menu-pwc": true,
     "navigation-infosys": true,
     "dashboard-infosys": true
+  },
+  "portfolio": {
+    "hackensack-ia": true,
+    "hackensack-app": false,
+    "datalake": true,
+    "readabl": true,
+    "staysmartcare": true,
+    "dataez": true,
+    "automaton": true,
+    "hal": true,
+    "marvin": true,
+    "predictiverx-iphone": true,
+    "predictiverx-web": true,
+    "movimento": true,
+    "shoutmd": true,
+    "pwc-expense": true,
+    "pwc-hoteling": true,
+    "pwc-taxdms": true,
+    "case-studies": true,
+    "fitoori": true
   }
 }
