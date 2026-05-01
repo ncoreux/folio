@@ -15,10 +15,12 @@ Capturing the human effort, AI effort, and cost dimensions of rebuilding a 4-pag
 | 2026-04-29 | Rebuild begins | Session 1 — index.html, CSS system, portfolio start |
 | 2026-04-29 → 04-30 | Main build | Session 2 (primary) — portfolio images, method, patterns, SEO, footer, favicons |
 | 2026-04-30 | Continuation | Session 3 — SEO finalization, skill docs, effort capture |
+| 2026-04-30 | Phase 2 | Session 4 (continuation) — FAB nav, horizontal heroes, footer redesign, mobile responsive, Fitoori hero, full-res image upgrades |
+| 2026-04-30 | Phase 2 | Session 4 (continued) — Added 6 new portfolio sections (Movimento, ShoutMD, PwC Expense/Hoteling/Tax DMS, Figma case studies), organized misc images into project folders |
 
 **Active rebuild window:** ~2 days (April 29–30, 2026)
-**Wall clock (sessions):** ~12 hours total across all sessions
-**Effective focused time:** ~6–8 hours (factoring in review, decisions, waiting)
+**Wall clock (sessions):** ~16 hours total across all sessions
+**Effective focused time:** ~10–12 hours (factoring in review, decisions, waiting)
 
 ---
 
@@ -172,14 +174,15 @@ Rough estimate based on Claude Opus pricing (as of early 2026):
 
 | Deliverable | Count/Size |
 |-------------|-----------|
-| HTML pages created | 4 |
-| CSS stylesheet | 1 (710 lines) |
-| JavaScript files | 0 |
-| Total HTML lines | 1,027 |
-| Images downloaded | 83 |
-| Image total size | ~13 MB |
+| HTML pages created | 7 (index, portfolio, method, patterns, 3 fitoori) |
+| CSS stylesheet | 1 (~1000 lines) |
+| JavaScript files | 1 (fab.js — mobile FAB nav) |
+| Total HTML lines | ~2,000+ |
+| Images organized | ~104 across 15 project folders |
+| Image total size | ~25 MB |
 | Favicon variants | 3 + OG image |
-| Project sections built | 27 (across portfolio, method, patterns) |
+| Figma prototype embeds | 3 (Scheduling, Kiosk, Front Desk/Lab Tech) |
+| Project sections built | 34 (18 portfolio, 8 method, 8 patterns) |
 
 ### What Was Eliminated
 

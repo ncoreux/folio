@@ -236,12 +236,54 @@ With the CSS system proven on the complex page, the other pages go fast — same
 ### Step 15: Add Navigation
 
 Consistent footer on every page:
-- Circle buttons linking to each section of the site
-- Resume/PDF link
+- Circle buttons (`.nav-circle`) with labels below in column layout
+- Resume/PDF link with SVG icon
 - External links (case studies, etc.)
-- Copyright
+- Copyright centered at full width
+- Use `justify-content: space-around` for even distribution
 
-Each inner page hero section with circles linking to sibling pages + home.
+Each inner page hero section (`.page-hero--horizontal`) with icon-circle + title on left, nav circles on right.
+
+### Step 15b: Add Mobile FAB Navigation
+
+For mobile (768px and below), add a Floating Action Button:
+
+```html
+<div class="fab">
+  <div class="fab__menu">
+    <a href="page.html" class="fab__item">
+      <span class="fab__label">Label</span>
+      <span class="fab__icon" style="background-color: var(--color);">X</span>
+    </a>
+    <!-- more items -->
+  </div>
+  <button class="fab__trigger" aria-label="Navigation menu">&#8943;</button>
+</div>
+<script src="js/fab.js"></script>
+```
+
+Key behaviors:
+- `display: none` by default, `display: block` at `max-width: 768px`
+- Glass effect: `backdrop-filter: blur(12px)` with semi-transparent bg
+- Appears after 70% scroll, fades during scroll, reappears 1s after scroll stops
+- Menu items animate with staggered `transition-delay` (bottom to top)
+- Auto-collapses after 5 seconds of inactivity
+- Tap outside to close
+
+### Step 15c: Embed Figma Prototypes
+
+For interactive case studies, embed Figma prototypes:
+
+```html
+<div class="figma-embed" style="margin: 20px 0;">
+  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" 
+    width="960" height="720" 
+    src="https://embed.figma.com/proto/..." 
+    allowfullscreen></iframe>
+</div>
+```
+
+CSS: `.figma-embed iframe { max-width: 100%; }` for responsive scaling.
 
 ---
 
@@ -317,6 +359,14 @@ Three sizes needed:
 - [ ] Profile photo is properly circular with grayscale filter
 - [ ] Responsive: check at 768px breakpoint and below
 - [ ] No horizontal scroll on mobile
+- [ ] FAB appears on mobile after scrolling 70%+
+- [ ] FAB glass effect renders properly (backdrop-filter)
+- [ ] FAB menu items animate with stagger on open
+- [ ] Figma embeds load and are interactive
+- [ ] Split layouts (text + images) stack on mobile
+- [ ] Screen images go full-width on mobile
+- [ ] Phone wireframes stay 3-col on mobile where intended
+- [ ] Visual design phone images stack to 1-col on mobile
 
 ### Step 21: SEO Validation
 
@@ -369,6 +419,11 @@ With AI assistance, the human effort is roughly half the above (AI handles bulk 
 | Context window exhaustion | Commit frequently; the AI can restart from the codebase state |
 | Over-engineering CSS | Start with the patterns you need; add complexity only when a section requires it |
 | Missing dark-mode text overrides | Every text element inside `.project--dark` needs explicit white color |
+| Wix CDN returning 403 | CDN blocks automated downloads; download originals from Wix Media Manager instead |
+| Images from Wix use `fill` mode | Use `fit` mode in CDN URL to preserve aspect ratio; `fill` crops |
+| `object-fit: cover` on screenshots | Use `contain` for UI screenshots to avoid cropping; `cover` is for photos |
+| Phone images too small on mobile | Stack vertically at full width rather than cramming 3 tiny images across |
+| Figma embeds overflow on mobile | Always set `max-width: 100%` on iframe |
 
 ---
 

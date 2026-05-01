@@ -16,7 +16,7 @@ Full Claude Code conversation logs (JSONL format). These capture every prompt, r
 |------|---------|------|
 | [sessions/session-1-explore.jsonl](sessions/session-1-explore.jsonl) | Initial exploration (~5 min) | 25 KB |
 | [sessions/session-2-early-build.jsonl](sessions/session-2-early-build.jsonl) | Early build — CSS system, index.html | 72 KB |
-| [sessions/session-3-primary.jsonl](sessions/session-3-primary.jsonl) | **Primary session** — all 4 pages, 83 images, SEO, skill docs (225 user msgs, 351 AI turns) | 5.2 MB |
+| [sessions/session-3-primary.jsonl](sessions/session-3-primary.jsonl) | **Primary session** — all 4 pages, 83 images, SEO, skill docs, FAB, horizontal heroes, footer redesign, mobile responsive, 6 new portfolio sections, image organization (225+ user msgs) | ~27 MB |
 | [sessions/session-4-brief.jsonl](sessions/session-4-brief.jsonl) | Brief check | 16 KB |
 
 ## Scripts & Outputs
