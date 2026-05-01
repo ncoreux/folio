@@ -28,5 +28,15 @@
     "pwc-taxdms": true,
     "case-studies": true,
     "fitoori": true
+  },
+  "method": {
+    "ux-process": true,
+    "journeymap-bloom": true,
+    "ia-marvin": false,
+    "taskflow-microsoft": true,
+    "strategy-shoutmd": true,
+    "persona-shoutmd": true,
+    "journeymap-hackensack": true,
+    "ia-hackensack": true
   }
 }
