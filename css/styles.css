@@ -809,6 +809,13 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 240px;
 }
 
+/* --- Patterns Intro Background --- */
+.bg-patterns-intro {
+  background: linear-gradient(#45421a, #635f11ad),
+              url('../images/patterns/intro-pattern-bg.jpg') center/cover no-repeat;
+  mix-blend-mode: darken;
+}
+
 /* --- Figma Embeds --- */
 .figma-embed iframe {
   max-width: 100%;
